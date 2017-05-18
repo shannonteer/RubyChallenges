@@ -17,14 +17,6 @@ class Humans
     return @age
   end
 
-  def set_gender=(gender)
-    @gender = gender
-  end
-
-  def get_gender
-    return @gender
-  end
-
   def eye_color=(eye_color)
     @eye_color = eye_color
   end
@@ -77,8 +69,6 @@ subject1.set_name = "Lucy"
 subject1_name = subject1.get_name
 subject1.set_age = "22"
 subject1_age = subject1.get_age
-subject1.set_gender = "female"
-subject1_gender = subject1.get_gender
 subject1.energized_by_interaction
 subject1.gregarious
 
@@ -88,8 +78,6 @@ subject2.set_name = "Arnold"
 subject2_name = subject2.get_name
 subject2.set_age = "29"
 subject2_age = subject2.get_age
-subject2.set_gender = "male"
-subject2_gender = subject2.get_gender
 subject2.energized_by_solace
 subject2.reserved
 
